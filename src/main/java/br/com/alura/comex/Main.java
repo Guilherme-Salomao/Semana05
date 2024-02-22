@@ -1,4 +1,4 @@
-package br.com.alura.comex;
+package main.java.br.com.alura.comex;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -77,5 +77,8 @@ public class Main {
         logger.info("PEDIDO MAIS BARATO: {} ({})", NumberFormat.getCurrencyInstance(new Locale("pt", "BR")).format(pedidoMaisBarato.getPreco().multiply(new BigDecimal(pedidoMaisBarato.getQuantidade())).setScale(2, RoundingMode.HALF_DOWN)), pedidoMaisBarato.getProduto());
         logger.info("PEDIDO MAIS CARO: {} ({})\n", NumberFormat.getCurrencyInstance(new Locale("pt", "BR")).format(pedidoMaisCaro.getPreco().multiply(new BigDecimal(pedidoMaisCaro.getQuantidade())).setScale(2, RoundingMode.HALF_DOWN)), pedidoMaisCaro.getProduto());
         logger.info("### FIM DO RELATÓRIO ###");
+
+
+
     }
 }

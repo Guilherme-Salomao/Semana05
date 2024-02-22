@@ -1,4 +1,6 @@
-package br.com.alura.comex;
+package main.java.br.com.alura.comex;
+
+import main.java.br.com.alura.comex.Produto;
 
 public class Atividade03 {
     public static void main(String[] args) {

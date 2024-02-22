@@ -1,4 +1,4 @@
-package br.com.alura.comex;
+package main.java.br.com.alura.comex;
 public class Endereco {
     String bairro;
     String cidade;
