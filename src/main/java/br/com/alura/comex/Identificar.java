@@ -1,5 +1,5 @@
 package main.java.br.com.alura.comex;
 
-public interface Identificavel {
+public interface Identificar {
     String Identificar();
 }

@@ -7,4 +7,17 @@ public class Eletronico extends Produto {
     public Eletronico(String nome) {
         super(nome);
     }
+
+    public int getVoltagem() {
+        return voltagem;
+    }
+    public void setVoltagem(int voltagem) {
+        this.voltagem = voltagem;
+    }
+    public int getPotencia() {
+        return potencia;
+    }
+    public void setPotencia(int potencia) {
+        this.potencia = potencia;
+    }
 }

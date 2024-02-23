@@ -1,29 +1,25 @@
 package main.java.br.com.alura.comex;
 
-public class Cliente implements Identificavel {
-    String nome;
-    String cpf;
-    String email;
-    String profissao;
-    String telefone;
-    Endereco endereco;
-
+public class Cliente implements Identificar {
+    private String nome;
+    private String cpf;
+    private String email;
+    private String profissao;
+    private String telefone;
     public void setNome(String nome) {
         this.nome = nome;
     }
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-
     public String getNome() {
         return nome;
     }
     private String getCPF() {
         return cpf;
     }
-
-    public String getIdentificacao() {
-        return "Essa é a identificação: Nome " + this.getNome() + " e CPF " + this.getCPF();
+    @Override
+    public String Identificar() {
+        return "O objeto Cliente identificável tem o nome: " + this.getNome() + " e CPF " + this.getCPF();
     }
-
 }

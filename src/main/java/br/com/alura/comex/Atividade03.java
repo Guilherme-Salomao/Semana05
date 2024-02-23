@@ -1,16 +1,15 @@
 package main.java.br.com.alura.comex;
 
-import main.java.br.com.alura.comex.Produto;
-
 public class Atividade03 {
     public static void main(String[] args) {
+        Livro livro = new Livro();
+        livro.setNome("Harry Porter");
+        livro.setIsbn("12021");
+        System.out.println(livro.Identificar());
 
-        Produto produtoA = new Produto("Celular");
-        produtoA.setDescricao("Iphone 14");
-
-        Produto produtoB= new Produto("Celular");
-        produtoB.setDescricao("Iphone 14");
-
-        System.out.println(produtoA == produtoB);
+        Cliente cliente = new Cliente();
+        cliente.setNome("Guilherme");
+        cliente.setCpf("12345678900");
+        System.out.println(cliente.Identificar());
     }
 }
