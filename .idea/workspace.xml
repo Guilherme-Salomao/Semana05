@@ -90,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Atividade04Leitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.br.com.alura.comex.Atividade04Leitura" />
+    <configuration name="Atividade04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.br.com.alura.comex.Atividade04" />
       <module name="Semana05" />
       <extension name="coverage">
         <pattern>

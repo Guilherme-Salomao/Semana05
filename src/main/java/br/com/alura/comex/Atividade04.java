@@ -3,7 +3,7 @@ package main.java.br.com.alura.comex;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Atividade04Leitura {
+public class Atividade04 {
     public static void main(String[] args) {
 
         try {
